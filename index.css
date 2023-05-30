@@ -8,7 +8,8 @@ body{
     flex-direction: column;
 }
 
-.board{
+.Board{
+    background-color: rgb(242, 242, 242);
     width: 700px;
     height: 700px;
     display: flex;
@@ -16,7 +17,6 @@ body{
 }
 
 .HBox{
-    background-color: blue;
     width: 100%;
     height: 100%;
     display: flex;
@@ -24,7 +24,7 @@ body{
 .HBox div{
     width: 100%;
     height: 100%;
-    border: 2px solid black;
+    border: 1px solid rgba(0, 0, 0, 0.124);
 }
 
 .Input{
